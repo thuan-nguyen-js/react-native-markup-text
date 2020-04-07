@@ -1,0 +1,6 @@
+dist/*
+*.ts
+coverage/*
+build/*
+node_modules/*
+*.md
