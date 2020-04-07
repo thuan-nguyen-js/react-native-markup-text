@@ -9,7 +9,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "npx babel index.js --out-dir dist",
+    "build": "npx babel src --out-dir dist",
     "lint:fix": "./node_modules/eslint/bin/eslint.js src --ext .js --cache --fix"
   },
   "dependencies": {
