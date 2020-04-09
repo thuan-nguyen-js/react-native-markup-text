@@ -4,12 +4,12 @@
   "description": "markup text component for react native app",
   "main": "dist/index.js",
   "react-native": "dist/index.js",
-  "repository": "git@github.com:thuan-nguyen-js/react-native-markup-text.git",
-  "author": "Thuan <https://github.com/thuan-nguyen-js>",
+  "repository": "git@github.com:william-normann/react-native-markup-text.git",
+  "author": "William Normann <nguyenbuiducthuan@gmail.com>(https://github.com/william-normann)",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "npx babel src --out-dir dist",
+    "build": "rm -rf dist/ && npx babel src --out-dir dist",
     "lint:fix": "./node_modules/eslint/bin/eslint.js src --ext .js --cache --fix"
   },
   "dependencies": {

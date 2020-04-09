@@ -95,9 +95,8 @@ class MarkupText extends React.PureComponent {
     const fragment = this.parse(_children);
     const rootKey = 'ht_';
 
-    const elements = [];
-    fragment.childNodes.forEach((node, index) => {
-      elements.push(processNode(node, `${rootKey}_${index}`));
+    const elements = fragment.childNodes.map((node, index) => {
+      return processNode(node, `${rootKey}_${index}`);
     });
 
     return <Text style={style}>{elements}</Text>;
