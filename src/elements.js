@@ -53,13 +53,15 @@ export const INLINE_ELEMENTS = {
   danger: {
     color: Colors.tomato,
   },
+  warning: {
+    color: Colors.warning,
+  },
   em: {
     fontStyle: 'italic',
   },
   i: {
     fontStyle: 'italic',
   },
-
   strong: {
     fontWeight: 'bold',
   },
